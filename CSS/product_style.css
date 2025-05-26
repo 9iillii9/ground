@@ -1,0 +1,437 @@
+main {
+    position: relative;
+    background-color: #E6DCCE;
+    height: 100%;
+    padding-bottom: 20px;
+}
+.main_img {
+    width: 100%;
+    height: 500px;
+    background-image: url(./../IMG/sub_visual5_01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    position: relative;
+    display: flex;
+    justify-content:center;
+}
+
+.main_img>.text_cont>h1{
+    position: absolute;
+    color: #F8F5F2;
+    z-index: 100;
+    top: 180px;
+    font-size: 40px;
+    transform: translateX(-700px);
+}
+
+.main_img>.text_cont>p{
+    color: #F8F5F2;
+    position: absolute;
+    z-index: 100;
+    top: 260px;
+    font-size: 20px;
+    font-weight:lighter;
+    transform: translateX(-700px);
+}
+section>h2 {
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding: 80px 0 20px;
+}
+
+.product-sec {
+    width: 100%;
+    max-width: 1560px;
+    margin: 0 auto;
+}
+
+.product-listmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3E5C4C;
+    border: 1px solid #E6DCCE;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.category-nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.category-nav li:hover>a{
+    background-color: #E6DCCE;
+    color: #3E5C4C;
+    border: gray 1px solid;
+}
+.category-nav li a {
+    display: block;
+    padding: 10px 12px;
+    /* background-color: #3E5C4C; */
+    color: #000;
+    font-weight:normal;
+    border: 1px solid #000;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.fam_1{
+    font-weight: bold;
+    border:1px gray solid;
+    background-color: #F8F5F2;
+    color: #3E5C4C;
+}
+.view-options {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    background-color: #3E5C4C;
+    border: 1px solid #000;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+    color: #000;
+}
+
+.arrow {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    background-image: url('./../IMG/downarrow.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5px;
+}
+
+.sub-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #3E5C4C;
+    border: 1px solid #000;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.icon-grid {
+    background-image: url('./../IMG/icon_sort_a3_on.png');
+    border: gray 1px solid;
+}
+
+.icon-list {
+    background-image: url(./../IMG/icon_sort_b3_on.png);
+}
+
+article {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.product>h3 {
+    color: #111;
+    border-bottom: 1px solid #757575;
+    padding: 10px 0;
+}
+
+.product>h4 {
+    color: #111;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.cup {
+    background-image: url(./../IMG/Reusablecup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.bak {
+    background-image: url(./../IMG/ApplauseSemi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.cup_1 {
+    background-image: url(./../IMG/Walnut-tree-cup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.tray {
+    background-image: url(./../IMG/Upcycletray.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.compost {
+    background-image: url(./../IMG/coffee-compost.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.flowerpot {
+    background-image: url(./../IMG/Coffee-compost-pot1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.clay {
+    background-image: url(./../IMG/coffee-clay-set.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.owl {
+    background-image: url(./../IMG/owl.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.pan {
+    background-image: url(./../IMG/coffee-pencil.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.can {
+    background-image: url(./../IMG/coffee-candle.png );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.brick {
+    background-image: url(./../IMG/brick.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.flow_set {
+    background-image: url(./../IMG/Coffee-compost-pot1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.mugwort {
+    background-image: url(./../IMG/Mugwort.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.durub {
+    background-image: url(./../IMG/ApplauseSemi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.minari {
+    background-image: url(./../IMG/waterparsley.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.dallae {
+    background-image: url(./../IMG/dallae.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.naengi {
+    background-image: url(./../IMG/naeng-inamul.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.onion {
+    background-image: url(./../IMG/onion.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.potato {
+    background-image: url(./../IMG/potato.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.carrot {
+    background-image: url(./../IMG/carrot.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.tomato {
+    background-image: url(./../IMG/cherrytomatoes.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.abocado {
+    background-image: url(./../IMG/avocado.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.uja {
+    background-image: url(./../IMG/yuja.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.salgu {
+    background-image: url(./../IMG/apricot.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.peach {
+    background-image: url(./../IMG/peach.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.shine_muscat {
+    background-image: url(./../IMG/podo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.hallabong {
+    background-image: url(./../IMG/orange.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.cherry {
+    background-image: url(./../IMG/cherry.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.strawberry {
+    background-image: url(./../IMG/strawberry.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.mandarine {
+    background-image: url(./../IMG/mandarin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}
+
+.oriental_melon {
+    background-image: url(./../IMG/korea-melon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367.5px;
+    height: 350px;
+}

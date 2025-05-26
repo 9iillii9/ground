@@ -1,0 +1,213 @@
+main{
+    width: 100%;
+    background-color: #E6DCCE;
+}
+.support-hero {
+  background-image: url(./../IMG/main_visual03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  padding: 200px 20px;
+  text-align: center;
+  height: 500px;
+  line-height: 70%;
+  color: #F8F5F2;
+}
+.support-main {
+    padding: 40px 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #E6DCCE;
+    color: #111;
+    max-width: 1560px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .support-hero h1 {
+    font-size: 40px;
+    color: #E6DCCE;
+  }
+
+  .support-hero p{
+    font-size: 25px;
+    color: #E6DCCE;
+    font-weight:normal;
+    line-height: 80px;
+    margin-bottom: 60px;
+  }
+  
+  .search-box {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    max-height: 45px;
+    margin: 0 auto;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+  }
+  
+  .search-box button {
+    width: 30px; height: 45px;
+    
+    padding: 10px 20px;
+    border: none;
+    background-color:#fff;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    background-image: url(./../IMG/inquiry-seach.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .faq {
+    margin-top: 60px;
+  }
+  
+  .faq h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .faq ul {
+    list-style: none;
+    padding: 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .Q {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .answer{
+    background-color: #F8F5F2;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 15px 15px 100px 15px;
+  }
+  .help-categories, .help-others {
+    margin-top: 60px;
+  }
+  
+  .help-categories h2, .help-others h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .grid-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+  }
+  
+  .qna_icon{
+    width: 100px; height: 100px;
+    margin: 0 auto;
+  }
+  .coffeeclay{
+    background-image: url(./../IMG/icon-clay.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .food{
+    background-image: url(./../IMG/icon-crate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .garden{
+    background-image: url(./../IMG/icon-growing.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .market{
+    background-image: url(./../IMG/icon-calendar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .savings{
+    background-image: url(./../IMG/icon-coin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .donation{
+    background-image: url(./../IMG/icon-earthquake.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .qna{
+    background-image: url(./../IMG/icon-chat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .delivery{
+    background-image: url(./../IMG/icon-delivery-truck.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+  .refund{
+    background-image: url(./../IMG/icon-ecommerce.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .help-card {
+    background-color: #F8F5F2;
+    padding: 30px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-bottom: 30px;
+  }
+  
+  .help-card:hover {
+    background-color: #eee;
+  }
+  .phonecall{
+    display: flex;
+    background-color: #F8F5F2;
+    padding: 10px;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: flex-start;
+    border-radius: 12px;
+ 
+  }
+  .phone-1{
+    text-align: center;
+    padding: 10px 70px;
+    font-size: 18px;
+  }
+  .phone-2{
+    text-align: center;
+    padding: 10px 70px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .phone-3{
+    padding: 10px 45px;
+    font-size: 16px;
+    color:dimgrey;
+  }
